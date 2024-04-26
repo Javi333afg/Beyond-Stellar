@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+
+body {
+    background-color:lightslategrey ;
+
+} 
+
+#tittle {
+    color: whitesmoke;
+    font-family: 'Sedan', serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 0px;
+}
+#navegation {
+  background-color: #403eaad5;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 0px;
+    
+}
