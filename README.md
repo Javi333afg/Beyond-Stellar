@@ -3,6 +3,7 @@
 This is the code for the Beyond Stellar website, an exploration center dedicated to space research and education.
 Research and technological development in the field of solar system science offer a unique window into the origin, evolution, and potential habitability of the celestial bodies that comprise our solar system. These efforts not only help us better understand how planets, moons, and asteroids formed, but also allow us to explore the possibility of extraterrestrial life and prevent space hazards that could affect Earth.
 Moreover, solar system exploration fosters innovation and inspiration, providing fertile ground for the development of new technologies and igniting the imagination of the next generation. Space missions, scientific discoveries, and breathtaking images of distant planets and moons serve as powerful educational tools that can motivate people to take an interest in STEM and pursue careers in science, technology, engineering, and mathematics.
+![visualtest](https://github.com/Javi333afg/Beyond-Stellar/assets/159150793/9fbcc835-ad0b-4100-a287-f2cf597f5989)
 
 ## Fearures
 
