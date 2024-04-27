@@ -86,6 +86,10 @@ External links open social media in new tab
 
 ![Validation css](https://github.com/Javi333afg/Beyond-Stellar/assets/159150793/4e02062f-0487-41f4-aaf3-b734070633d8)
 
+* I tested with lighthouse the website.
+  
+![Score](https://github.com/Javi333afg/Beyond-Stellar/assets/159150793/0483ac05-9424-4a2b-865a-7c057e07ab96)
+
 
 ## Credits
 - Some additional notes:
