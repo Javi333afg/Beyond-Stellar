@@ -9,20 +9,28 @@ Moreover, solar system exploration fosters innovation and inspiration, providing
 + Navigation
 
 * The page has a header with a title, descriptive text and a navigation bar with links to "About Us", "Join Us" and "Contact" sections.
-![Navegator](assets/navegator.png)
+![Navegator](https://github.com/Javi333afg/Beyond-Stellar/assets/159150793/2fb6eed0-c3f2-4668-b095-3520c123d886)
+
 
 * After the header there is a presentation section with images and introductory text about the website.
-![Introduction](assets/introduction.png)
+![introduction](https://github.com/Javi333afg/Beyond-Stellar/assets/159150793/aa274f90-dfdb-4430-8104-66713dbf1108)
+
 
 * Then a "Current Missions" section with images and a list with information about current missions to Mars and the Moon.
+  ![missions](https://github.com/Javi333afg/Beyond-Stellar/assets/159150793/639c3e36-84eb-435b-8ae4-a25437c980df)
+
 
 * The "Join Us" section invites the user to join with a link to sing up to a different html page.
-![Submit](assets/submit.png)
+![submit](https://github.com/Javi333afg/Beyond-Stellar/assets/159150793/79a48a83-d6da-4fea-ab80-70a8c0e66b9e)
+
 
 * The "Contact" section has contact information, office hours and physical address.
-![Contact](assets/contact.png)
+![contact](https://github.com/Javi333afg/Beyond-Stellar/assets/159150793/7cefcf49-f998-4921-b7b0-12ead784c622)
+
 
 * The footer contains links to social media.
+  ![footer](https://github.com/Javi333afg/Beyond-Stellar/assets/159150793/43bb4d3f-d329-41bf-b497-6e1dc0829538)
+
 
 * Overall, the navigation is based on sections with IDs like "about-us", "join-us" and "contact" linked from the header navigation bar.
 
@@ -73,8 +81,10 @@ External links open social media in new tab
 * I confirmed that the social media links open in new tabs.
 
 * I tested in the W3C Markup Validator and CSS Validator.
-![W3C Markup Validator](assets/w3c.png)
-![CSS Validator](assets/css.png)
+![Validation on w3c](https://github.com/Javi333afg/Beyond-Stellar/assets/159150793/1aaab4b8-03ba-4d06-affe-36ebe476244e)
+
+![Validation css](https://github.com/Javi333afg/Beyond-Stellar/assets/159150793/4e02062f-0487-41f4-aaf3-b734070633d8)
+
 
 ## Credits
 - Some additional notes:
