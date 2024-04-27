@@ -1,99 +1,44 @@
-Title
-===
-Abstract:xxx
-## Papar Information
-- Title:  `paper name`
-- Authors:  `A`,`B`,`C`
-- Preprint: [https://arxiv.org/abs/xx]()
-- Full-preprint: [paper position]()
-- Video: [video position]()
+# Beyond Stellar Website
 
-## Install & Dependence
-- python
-- pytorch
-- numpy
+This is the code for the Beyond Stellar website, an exploration center dedicated to space research and education.
+Research and technological development in the field of solar system science offer a unique window into the origin, evolution, and potential habitability of the celestial bodies that comprise our solar system. These efforts not only help us better understand how planets, moons, and asteroids formed, but also allow us to explore the possibility of extraterrestrial life and prevent space hazards that could affect Earth.
+Moreover, solar system exploration fosters innovation and inspiration, providing fertile ground for the development of new technologies and igniting the imagination of the next generation. Space missions, scientific discoveries, and breathtaking images of distant planets and moons serve as powerful educational tools that can motivate people to take an interest in STEM and pursue careers in science, technology, engineering, and mathematics.
 
-## Dataset Preparation
-| Dataset | Download |
-| ---     | ---   |
-| dataset-A | [download]() |
-| dataset-B | [download]() |
-| dataset-C | [download]() |
+## Contents
+The code contains the following sections:
 
-## Use
-- for train
-  ```
-  python train.py
-  ```
-- for test
-  ```
-  python test.py
-  ```
-## Pretrained model
-| Model | Download |
-| ---     | ---   |
-| Model-1 | [download]() |
-| Model-2 | [download]() |
-| Model-3 | [download]() |
+Header
+Title, subtitle and navigation links
+Presentation
+Welcome message, images and about us text
+Current Missions
+Images and information on current space missions
+Join Us
+Call to action for visitors to join/apply
+Contact
+Contact information, opening hours, address
+Footer
+Social media links
+## Features
+Some key features of the code:
 
+Semantic HTML tags used for better structure and SEO
+CSS stylesheet linked for styling
+Font Awesome icons used in footer
+Images optimized and responsive
+Table used for opening hours
+Internal links connect navigation to different sections
+External links open social media in new tab
 
-## Directory Hierarchy
-```
-|—— .devcontainer
-|    |—— build-assets
-|        |—— heroku_config.sh
-|        |—— http_server.py
-|        |—— make_url.py
-|    |—— devcontainer.json
-|    |—— docker-compose.yml
-|    |—— Dockerfile
-|—— .gitignore
-|—— assets
-|    |—— css
-|        |—— style.css
-|    |—— favicon
-|        |—— logo.png
-|    |—— images
-|        |—— cosmos.jpg
-|        |—— earth-a.jpg
-|        |—— earth.jpg
-|        |—— jupiter.jpg
-|        |—— Mars0.png
-|        |—— moon.jpg
-|        |—— neptune.jpg
-|        |—— rocket.jpg
-|        |—— saturn.jpg
-|        |—— Venus.jpg
-|        |—— Views.jpg
-|—— index.html
-|—— Readme
-|—— signup.html
-```
-## Code Details
-### Tested Platform
-- software
-  ```
-  OS: Debian unstable (May 2021), Ubuntu LTS
-  Python: 3.8.5 (anaconda)
-  PyTorch: 1.7.1, 1.8.1
-  ```
-- hardware
-  ```
-  CPU: Intel Xeon 6226R
-  GPU: Nvidia RTX3090 (24GB)
-  ```
-### Hyper parameters
-```
-```
-## References
-- [paper-1]()
-- [paper-2]()
-- [code-1](https://github.com)
-- [code-2](https://github.com)
-  
-## License
+## Deployment
 
-## Citing
-If you use xxx,please use the following BibTeX entry.
-```
-```
+## Testing
+
+## Credits
+Some additional notes:
+
+This is just the HTML markup, CSS stylesheet is in a separate file
+Favicon and meta tags included for SEO best practices
+Accessible elements like aria labels used where appropriate
+Code is clean, readable and follows best practices
+Ready to be built upon and expanded as needed
