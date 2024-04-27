@@ -9,14 +9,18 @@ Moreover, solar system exploration fosters innovation and inspiration, providing
 + Navigation
 
 * The page has a header with a title, descriptive text and a navigation bar with links to "About Us", "Join Us" and "Contact" sections.
+![Navegator](assets/navegator.png)
 
 * After the header there is a presentation section with images and introductory text about the website.
+![Introduction](assets/introduction.png)
 
 * Then a "Current Missions" section with images and a list with information about current missions to Mars and the Moon.
 
-* The "Join Us" section invites the user to join and be part of future missions.
+* The "Join Us" section invites the user to join with a link to sing up to a different html page.
+![Submit](assets/submit.png)
 
 * The "Contact" section has contact information, office hours and physical address.
+![Contact](assets/contact.png)
 
 * The footer contains links to social media.
 
@@ -25,6 +29,7 @@ Moreover, solar system exploration fosters innovation and inspiration, providing
 * The content is structured in sections with headings, images, paragraphs and lists.
 
 * The navigation logically takes the user through the different informative sections of the website.
+
 
 
 ## Contents
@@ -42,8 +47,10 @@ Contact
 Contact information, opening hours, address
 Footer
 Social media links
+
 ## Features
-Some key features of the code:
+
+* Some key features of the code:
 
 Semantic HTML tags used for better structure and SEO
 CSS stylesheet linked for styling
@@ -57,11 +64,21 @@ External links open social media in new tab
 
 ## Testing
 
-## Credits
-Some additional notes:
+* I tested that this page works in different browsers: Chrome, Firefox, Safari.
 
-This is just the HTML markup, CSS stylesheet is in a separate file
-Favicon and meta tags included for SEO best practices
-Accessible elements like aria labels used where appropriate
-Code is clean, readable and follows best practices
-Ready to be built upon and expanded as needed
+* I confirmed that the navigation, header, footer and other elements are all readable and easy to understand.
+
+* I confirmed that the form works and the user can submit their details.
+
+* I confirmed that the social media links open in new tabs.
+
+* I tested in the W3C Markup Validator and CSS Validator.
+![W3C Markup Validator](assets/w3c.png)
+![CSS Validator](assets/css.png)
+
+## Credits
+- Some additional notes:
+
+* Favicon logo: https://favicon.io
+* Images: Wikipedia pictures
+* Information: Google news / Wikipedia
