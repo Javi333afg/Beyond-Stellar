@@ -2,29 +2,199 @@
 @import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
 
 body {
-    background-color:lightslategrey ;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 120%;
+    overflow: scroll;
 
 } 
 
 #tittle {
     color: whitesmoke;
     font-family: 'Sedan', serif;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: bold;
     text-align: center;
     padding: 10px;
     margin: 0px;
     border-radius: 0px;
+    text-decoration: underline overline;
 }
-#navegation {
-  background-color: #403eaad5;
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    padding: 10px;
-    margin: 0px;
-    border-radius: 0px;
-    
+#navigation {
+  background-color: whitesmoke;
+  opacity: 0.8;
+  color: goldenrod;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;    
+}
+
+#navigation a {
+  margin-right: 40px;
+}
+  
+
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.shadow {
+  background-color: rgba(39, 57, 70, 0.6);
+  padding: 10px;
+  margin: 0px;
+  border-radius: 0px;    
+}
+
+.shadow-bottom {
+  background-color: rgba(65, 39, 70, 0.322);
+  padding: 10px;
+  margin: 0px;
+  border-radius: 0px;    
+}
+
+.slim-text {
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.image-container {
+  display: flex;
+}
+
+.image-container img {
+  width: 33%;
+  height: auto;
+  margin-top: 2%; 
+}
+
+h2 {
+  text-decoration: underline;
+   color: wheat;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-underline {
+  text-decoration: underline whitesmoke;
+}
+
+
+.bold {
+  font-weight: bold;
+}
+
+.text-margin {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+li {
+list-style-type: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+
+}
+
+
+/*Contact */
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.lightshadow {
+  background-color: rgba(24, 34, 34, 0.521);
+  border-radius: 3%;
+}
+
+/*-- Footer --*/
+
+footer {
+  height: 150px;
+}
+.social-links > li {
+  display: inline;
+  font-size: 200%;
+  list-style-type: disc;
+  margin: 2%;
+  color: rgb(175, 171, 171)
+
+}
+
+/*-- Signup --*/
+
+#signup {
+  background-color: rgba(153, 136, 136, 0.479);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.425);
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+
+#signup h2 {
+ text-align: center;
+ margin-bottom: 20px;
+}
+
+.signup-form {
+ max-width: 400px;
+ margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
 }

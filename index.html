@@ -8,61 +8,135 @@
     <!--Stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
     <!--Favicon-->
-    <link rel="icon" href="assets/favicon/minirocket.png">
+    <link rel="icon" href="assets/favicon/logo.png">
     <!--Meta tags-->
     <meta name="description" content="Beyond Stellar, Passionate about research and learning about the universe, Investigation center">
     <meta name="keywords" content="Beyond Stellar, Explore the Universe, Space, Stars, Investigation, Study Center, Earth, Moon, Solar System, Dublin Investigations, hunger to learn">
 </head>
 <body>
+  <!--Header-->
+  <section>
     <header> 
         <h1 id="tittle">Beyond Stellar</h1>
-        <nav id="navegation">
-            <a href="#home">Home</a>
-            <a href="#achive">Historical achivements</a>
-            <a href="#mision">Current missions</a>
-            <a href="#Join us">Join us</a>
-            <a href="#contact">Contact</a>
+
+        <p class="slim-text">Discover the wonders of the cosmos and the feats of humanity in space</p>
+
+        <nav id="navigation" class="uppercase">
+              <a href="#about-us">About us</a>
+              <a href="#join-us">Join us</a>
+              <a href="#contact">Contact</a>
         </nav>
     </header>
-  <section>
-    <div id="cosmos-image"></div>
   </section>
-  <!-- Presentation Home -->
+
+  <!-- Presentation -->
 
     <section>
-        <h2 id="home">Welcome to Beyond Stellar</h2>
-        <p>Discover the wonders of the cosmos and the feats of humanity in space.</p>
+        <h2>Welcome to Beyond Stellar</h2>
 
-  <!-- Achivements -->
+        <div class="image-container">
+        <img src="assets/images/Venus.jpg" alt="Venus">
+        <img src="assets/images/moon.jpg" alt="Moon">
+        <img src="assets/images/Mars0.png" alt="Mars0">
+        </div>
 
-        <h3 id="achive">Historical achivements</h3>
-        <p>Here you can find information about the most important milestones in space exploration.</p>
+      <div id="about-us">
+      <p class="shadow">Space exploration has been a milestone in human history, representing our innate curiosity for the unknown and our desire to understand our place in the universe.</p>
+      <p class="shadow-bottom">Beyond Stellar is a platform dedicated to celebrating and explore the vast and fascinating cosmos around us.</p> 
+      <p class="shadow">From the first space flights to today's exciting projects and futuristic visions, our website offers a comprehensive view of space exploration.</p>
+      <p class="shadow-bottom">Discover historical achievements, explore the latest scientific discoveries, learn about. to the pioneers of space exploration and contemplate the wonders of the universe that are yet to be discovered.</p>
+      <p class="shadow">Join us on this exciting journey beyond the Earth's borders and immerse yourself in the infinite cosmos waiting to be explored.</p>
+      </div>
+    </section> 
 
   <!-- Current Missions -->
+    <section>
+        <div class="image-container">
+        <img src="assets/images/jupiter.jpg" alt="jupiter">
+        <img src="assets/images/earth-a.jpg" alt="earth">
+        <img src="assets/images/neptune.jpg" alt="neptune">
+        </div>
 
-        <h3 id="mision">Current missions</h3>
-        <p>Explore ongoing space missions and the latest discoveries.</p>
+        <h3 class="text-underline">Current missions</h3>
+
+        <ul>
+          <li>
+            <span class="text-underline">Mars, goal for 2040</span>
+            <br>Passing through the Earth's satellite is an intermediate 
+            point towards the great objective: reaching the red planet.
+            There, in the rugged lands of Mars, the Perseverance rover 
+            has been located since February 2021, analyzing all possible
+             samples, until the arrival of humans.
+          </li>
+          <li>
+            <span class="text-underline">Moon, goal September 2025</span> 
+            <br>The first crewed Artemis mission around the Moon, and September 2026 for
+             Artemis III, which is expected to land the first astronauts near the lunar South Pole.
+          </li>
+        </ul>
     </section>
 
   <!-- Join Us -->
   
-    <section id="Join us">
+    <section id="join-us">
         <h2>Join us</h2>
         <p>Join us and be part of the upcoming missions and projects that will shape the future of space exploration.</p>
+          <a href="signup.html" aria-label="Go to aplication section">Aplication</a>
     </section>
 
-  <!-- Contact / Form /-->
+  <!-- Contact /-->
   
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>For questions and more information, do not hesitate to contact us.
-          <br>Press here</br></p>
-    </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>For questions and more information, do not hesitate to contact us.</p>
+
+    <div class="contact-container lightshadow">
+        <div>
+            <h3 class="text-center text-underline">Open times</h3>
+            <table class="text-center text-underline">
+                <tr>
+                    <th></th>
+                    <th>Open</th>
+                    <th>Close</th>
+                </tr>
+                <tr>
+                    <td>Mon - Fri</td>
+                    <td>08:00</td>
+                    <td>20:30</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>08:00</td>
+                    <td>14:00</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="contact-box-right">
+            <h3 class="text-underline">Get in touch</h3>
+            <div>
+                <span class="bold">Phone: </span>
+                <span>+353 321 123 4567</span>
+            </div>
+            <div>
+                <span class="bold">Email: </span>
+                <span>email@beyondstellar.com</span>
+            </div>
+        </div>
+
+        <div>
+            <h3 class="text-underline">Address</h3>
+            <p>BeyondStellar Office<br>O'Connell St.14,<br>Dublin</p>
+        </div>
+    </div>
+</section>
+
   
-<!-- Footer / Social media logos / links  -->
+<!-- Footer   -->
   
     <footer>
-        <ul class="social-networks">
+      <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+        <ul class="social-links">
             <li><a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
             <li><a href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter-square"></i></a></li>
             <li><a href="https://www.youtube.com" target="_blank" rel="noopener"><i class="fab fa-youtube-square"></i></a></li>
