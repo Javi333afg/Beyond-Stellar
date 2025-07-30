@@ -5,7 +5,7 @@ Research and technological development in the field of solar system science offe
 Moreover, solar system exploration fosters innovation and inspiration, providing fertile ground for the development of new technologies and igniting the imagination of the next generation. Space missions, scientific discoveries, and breathtaking images of distant planets and moons serve as powerful educational tools that can motivate people to take an interest in STEM and pursue careers in science, technology, engineering, and mathematics.
 ![visualtest](https://github.com/Javi333afg/Beyond-Stellar/assets/159150793/9fbcc835-ad0b-4100-a287-f2cf597f5989)
 
-## Fearures
+## Features
 
 + Navigation
 
